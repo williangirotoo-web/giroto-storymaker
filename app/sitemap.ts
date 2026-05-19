@@ -1,5 +1,6 @@
 import { paginas } from '@/data/paginas'
 import { paginasFoto } from '@/data/paginas_foto'
+import { blogPosts } from '@/data/blog_posts'
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -19,7 +20,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  const blog = blogPosts.map(p => ({
+    url: `${base}/blog/${p.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   return [
+    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    ...blog,
     { url: `${base}/fotografo`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     ...paginasFotografo,
     { url: base, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
