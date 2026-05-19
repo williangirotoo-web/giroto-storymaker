@@ -151,12 +151,17 @@ export default function Home() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a0806]/95 backdrop-blur-md border-b border-[rgba(212,168,67,0.15)] py-3' : 'bg-transparent py-5'}`}>
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
           <a href="#inicio" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full border-2 border-[#d4a843] flex items-center justify-center">
-              <span className="text-[#d4a843] font-bold text-sm">G</span>
+            <div style={{
+              width:44, height:44, borderRadius:'50%',
+              background:'linear-gradient(135deg,#f0d080,#d4a843,#8a6a1f)',
+              display:'flex', alignItems:'center', justifyContent:'center',
+              boxShadow:'0 0 16px rgba(212,168,67,0.5)'
+            }}>
+              <span style={{ color:'#0a0806', fontWeight:900, fontSize:18, fontFamily:'serif' }}>G</span>
             </div>
             <div>
-              <span className="font-display font-bold text-lg text-white leading-none block">Giroto</span>
-              <span className="text-[#d4a843] text-xs tracking-widest uppercase leading-none">Story Maker</span>
+              <span style={{ fontFamily:'serif', fontWeight:900, fontSize:18, color:'#fff', letterSpacing:1, display:'block', lineHeight:1.1 }}>Giroto</span>
+              <span style={{ fontSize:9, letterSpacing:3, color:'#d4a843', textTransform:'uppercase', display:'block' }}>Story Maker</span>
             </div>
           </a>
 
