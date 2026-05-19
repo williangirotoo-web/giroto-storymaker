@@ -283,7 +283,7 @@ export default function Home() {
             </div>
             <div className="animate-on-scroll relative" style={{animationDelay:'0.2s'}}>
               <div className="relative rounded-2xl overflow-hidden aspect-[4/5] border border-[rgba(212,168,67,0.2)]">
-                <div style={{backgroundImage:"url('/fotos/foto5.jpg')",backgroundSize:'cover',backgroundPosition:'center top',width:'100%',height:'100%',minHeight:'420px'}} />
+                <img src="/fotos/foto5.jpg" alt="Vania Giroto Story Maker profissional" style={{width:'100%',height:'100%',minHeight:'420px',objectFit:'cover',objectPosition:'center top',display:'block'}} loading="eager" decoding="sync" />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 rounded-2xl bg-[#d4a843]/10 border border-[rgba(212,168,67,0.3)] flex items-center justify-center">
                 <span className="text-3xl">💍</span>
