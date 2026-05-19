@@ -63,9 +63,9 @@ export default function FotografoPage() {
           <img src="/fotos/casal.jpg" alt="Cícero e Vânia Giroto - Studio Foto Danielle e Giroto Story Maker Umuarama PR" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%', display: 'block' }} />
         </div>
         <div>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: 700, color: '#fff', marginBottom: 16 }}>Cícero & Vânia Giroto</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: 700, color: '#fff', marginBottom: 16 }}>Cícero Manoel Domingos & Vânia Giroto</h2>
           <p style={{ color: '#bbb', lineHeight: 1.8, marginBottom: 20, fontSize: 15 }}>
-            Com mais de 40 anos de experiência, Cícero Giroto é referência em fotografia profissional no Noroeste do Paraná. 
+            Com mais de 40 anos de experiência, Cícero Manoel Domingos é referência em fotografia profissional no Noroeste do Paraná. 
             Em parceria com Vânia, da <strong style={{ color: '#d4a843' }}>Giroto Story Maker</strong>, oferecem o pacote mais completo de cobertura de eventos de Umuarama PR — fotos eternas para o álbum E conteúdo profissional para suas redes sociais em tempo real.
           </p>
           {([
