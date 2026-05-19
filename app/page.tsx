@@ -366,7 +366,7 @@ export default function Home() {
               </h2>
               <div className="space-y-5 text-gray-300 text-base leading-relaxed">
                 <p>
-                  Nos últimos anos, o serviço de <strong className="text-white">Story Maker para casamentos</strong> se tornou uma das tendências mais procuradas por noivos em todo o Brasil — e em Umuarama PR e região, essa febre chegou com tudo. Mas afinal, o que é um Story Maker e por que ele se tornou indispensável nos eventos modernos?
+                  Nos últimos anos, o serviço de <strong className="text-white">Story Maker para casamentos</strong> se tornou uma das tendências mais procuradas por noivos em todo o Brasil — e em Rua Amadeu Boggio Melo, 925 - Jd. Alto da Boa Vista, Umuarama PR, essa febre chegou com tudo. Mas afinal, o que é um Story Maker e por que ele se tornou indispensável nos eventos modernos?
                 </p>
                 <p>
                   O Story Maker é um profissional especializado em criar <strong className="text-white">conteúdo para Instagram Stories, Reels e TikTok</strong> em tempo real durante o evento. Diferente do fotógrafo ou videógrafo tradicional, que entrega o material dias ou semanas depois, o Story Maker edita e envia o conteúdo ainda durante a festa — para que os noivos e convidados possam compartilhar os melhores momentos enquanto eles ainda estão acontecendo.
@@ -558,7 +558,7 @@ export default function Home() {
                 {[
                   { icon: '📱', label: 'WhatsApp', value: '(44) 98438-3013', href: WA_LINK },
                   { icon: '📸', label: 'Instagram', value: '@giroto_storymaker', href: IG_LINK },
-                  { icon: '📍', label: 'Localização', value: 'Umuarama PR e região', href: null },
+                  { icon: '📍', label: 'Localização', value: 'Rua Amadeu Boggio Melo, 925 - Jd. Alto da Boa Vista, Umuarama PR', href: null },
                   { icon: '🕐', label: 'Atendimento', value: 'Seg–Dom, 8h às 22h', href: null },
                 ].map((item) => (
                   <div key={item.label} className="card-glass rounded-xl p-4 flex items-center gap-4">
@@ -586,7 +586,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="animate-on-scroll rounded-2xl overflow-hidden border border-[rgba(212,168,67,0.2)] grid md:grid-cols-2 gap-0">
             <div className="relative" style={{aspectRatio:'4/3', minHeight:'250px'}}>
-              <img src="/fotos/casal.jpg" alt="Cícero e Vânia Giroto - Fotógrafo e Story Maker em Umuarama PR" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center top',display:'block'}} />
+              <img src="/fotos/casal.jpg" alt="Cícero e Vânia Giroto - Fotógrafo e Story Maker em Umuarama PR" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 20%',display:'block'}} />
               <div style={{position:'absolute',inset:0,background:'linear-gradient(to right, transparent 60%, #0d0a07)'}} />
             </div>
             <div className="p-8 flex flex-col justify-center">
