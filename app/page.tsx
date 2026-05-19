@@ -213,7 +213,7 @@ export default function Home() {
             <span className="w-2 h-2 rounded-full bg-[#d4a843] animate-pulse"/>
             <span className="text-[#d4a843] text-sm font-medium">Story Maker Profissional em Umuarama PR</span>
           </div>
-          <h1 className="font-display font-black leading-tight mb-6 fade-up-2" style={{fontSize:"clamp(2rem,6vw,4.5rem)"">
+          <h1 className="font-display font-black leading-tight mb-6 fade-up-2" style={{fontSize:"clamp(1.6rem,5vw,4.5rem)"">
             <span className="text-white">Story Maker Para</span><br/>
             <span className="text-shimmer">Casamentos e Eventos</span><br/>
             <span className="text-white">Em Umuarama PR</span>
@@ -283,7 +283,7 @@ export default function Home() {
             </div>
             <div className="animate-on-scroll relative" style={{animationDelay:'0.2s'}}>
               <div className="relative rounded-2xl overflow-hidden aspect-[4/5] border border-[rgba(212,168,67,0.2)]">
-                <img src="/fotos/foto5.jpg" alt="Giroto Story Maker profissional em ação" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center',display:'block'}} />
+                <img src="/fotos/foto5.jpg?v=2" alt="Giroto Story Maker profissional em ação" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center',display:'block'}} />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 rounded-2xl bg-[#d4a843]/10 border border-[rgba(212,168,67,0.3)] flex items-center justify-center">
                 <span className="text-3xl">💍</span>
