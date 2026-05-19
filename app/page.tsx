@@ -284,7 +284,7 @@ export default function Home() {
             <div className="animate-on-scroll relative" style={{animationDelay:'0.2s'}}>
               <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-[#1c1610] border border-[rgba(212,168,67,0.2)]">
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-                  <div className="text-6xl mb-6">📸</div>
+                  <img src="/fotos/foto5.jpg" alt="Giroto Story Maker profissional" className="w-full h-full object-cover object-center absolute inset-0" />
                   <h3 className="font-display text-2xl font-bold text-white mb-3">Portfólio em Breve</h3>
                   <p className="text-gray-400 text-sm mb-6">Veja os melhores momentos já capturados</p>
                   <a href={IG_LINK} target="_blank" rel="noopener noreferrer"
