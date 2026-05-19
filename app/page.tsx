@@ -580,6 +580,38 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* ── PARCEIRO FOTÓGRAFO ──────────────────────────── */}
+      <section className="py-16 bg-[#0d0a07] border-t border-[rgba(212,168,67,0.1)]">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="animate-on-scroll rounded-2xl overflow-hidden border border-[rgba(212,168,67,0.2)] grid md:grid-cols-2 gap-0">
+            <div className="relative" style={{aspectRatio:'4/3', minHeight:'250px'}}>
+              <img src="/fotos/casal.jpg" alt="Cícero e Vânia Giroto - Fotógrafo e Story Maker em Umuarama PR" style={{width:'100%',height:'100%',objectFit:'cover',objectPosition:'center top',display:'block'}} />
+              <div style={{position:'absolute',inset:0,background:'linear-gradient(to right, transparent 60%, #0d0a07)'}} />
+            </div>
+            <div className="p-8 flex flex-col justify-center">
+              <div className="inline-block bg-[rgba(212,168,67,0.1)] border border-[rgba(212,168,67,0.25)] rounded-full px-4 py-1.5 mb-4">
+                <span className="text-[#d4a843] text-xs font-semibold tracking-widest uppercase">Parceiro Oficial</span>
+              </div>
+              <h2 className="font-display font-bold text-2xl md:text-3xl text-white mb-3 leading-tight">
+                Fotografia + Story Maker = <span className="text-[#d4a843]">Cobertura Completa</span>
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                Trabalhamos juntos para oferecer o pacote mais completo de Umuarama PR. <strong className="text-white">Cícero Giroto</strong>, fotógrafo com <strong className="text-white">40 anos de experiência</strong> no <strong className="text-white">Studio Foto Danielle</strong>, cuida das fotos eternas enquanto a Giroto Story Maker cria o conteúdo para suas redes sociais em tempo real.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a href="/fotografo" className="btn-gold px-6 py-3 rounded-full text-sm font-bold text-center inline-flex items-center justify-center gap-2">
+                  📷 Ver Fotógrafo
+                </a>
+                <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-outline-gold px-6 py-3 rounded-full text-sm font-bold text-center">
+                  💬 Pacote Completo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FOOTER ──────────────────────────────────────────── */}
       <footer className="bg-[#0a0806] border-t border-[rgba(212,168,67,0.1)] py-12">
         <div className="max-w-6xl mx-auto px-6">
