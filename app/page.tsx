@@ -213,7 +213,7 @@ export default function Home() {
             <span className="w-2 h-2 rounded-full bg-[#d4a843] animate-pulse"/>
             <span className="text-[#d4a843] text-sm font-medium">Story Maker Profissional em Umuarama PR</span>
           </div>
-          <h1 className="font-display font-black leading-tight mb-6 fade-up-2" style={{fontSize:"clamp(1.6rem,5vw,4.5rem)"">
+          <h1 className="font-display font-black leading-tight mb-6 fade-up-2" style={{fontSize:"clamp(1.3rem,4.5vw,4.5rem)", lineHeight:"1.15"">
             <span className="text-white">Story Maker Para</span><br/>
             <span className="text-shimmer">Casamentos e Eventos</span><br/>
             <span className="text-white">Em Umuarama PR</span>
