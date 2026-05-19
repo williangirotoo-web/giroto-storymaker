@@ -7,6 +7,8 @@ export const metadata: Metadata = {
 }
 
 const WA = 'https://wa.me/5544984383013'
+const IG_PAI = 'https://www.instagram.com/studio_danielle_foto_e_filmes'
+const FB_PAI = 'https://www.facebook.com/studiofotodanielleumu/'
 const IG = 'https://instagram.com/giroto_storymaker'
 const ENDERECO = 'Rua Amadeu Boggio Melo, 925 - Jardim Alto da Boa Vista, Umuarama PR'
 
@@ -120,7 +122,8 @@ export default function FotografoPage() {
           <p style={{ color: '#666', fontSize: 13, marginBottom: 28 }}>📍 {ENDERECO}</p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href={WA} target="_blank" rel="noopener noreferrer" style={{ background: '#25d366', color: '#fff', padding: '14px 28px', borderRadius: 30, textDecoration: 'none', fontWeight: 700 }}>💬 WhatsApp</a>
-            <a href={IG} target="_blank" rel="noopener noreferrer" style={{ background: 'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)', color: '#fff', padding: '14px 28px', borderRadius: 30, textDecoration: 'none', fontWeight: 700 }}>📸 Instagram</a>
+            <a href={IG_PAI} target="_blank" rel="noopener noreferrer" style={{ background: 'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)', color: '#fff', padding: '14px 28px', borderRadius: 30, textDecoration: 'none', fontWeight: 700 }}>📸 Instagram</a>
+            <a href={FB_PAI} target="_blank" rel="noopener noreferrer" style={{ background: '#1877f2', color: '#fff', padding: '14px 28px', borderRadius: 30, textDecoration: 'none', fontWeight: 700 }}>👤 Facebook</a>
           </div>
           <div style={{ marginTop: 24 }}>
             <a href="/fotografo/all" style={{ color: '#555', fontSize: 12, textDecoration: 'none' }}>Ver todos os serviços de fotografia →</a>
@@ -131,6 +134,10 @@ export default function FotografoPage() {
       <footer style={{ background: '#050403', borderTop: '1px solid rgba(212,168,67,0.15)', padding: '24px', textAlign: 'center' }}>
         <p style={{ color: '#444', fontSize: 12 }}>© 2025 Studio Foto Danielle · Cícero Giroto · {ENDERECO}</p>
         <a href="/" style={{ color: '#d4a843', textDecoration: 'none', fontSize: 12, display: 'inline-block', marginTop: 6 }}>← Voltar ao Início</a>
+        <div style={{ marginTop: 12, display: 'flex', gap: 16, justifyContent: 'center' }}>
+          <a href={IG_PAI} target="_blank" rel="noopener noreferrer" style={{ color: '#888', fontSize: 12, textDecoration: 'none' }}>📸 @studio_danielle_foto_e_filmes</a>
+          <a href={FB_PAI} target="_blank" rel="noopener noreferrer" style={{ color: '#888', fontSize: 12, textDecoration: 'none' }}>👤 studiofotodanielleumu</a>
+        </div>
       </footer>
 
       <a href={WA} target="_blank" rel="noopener noreferrer" style={{ position: 'fixed', bottom: 24, right: 24, background: '#25d366', color: '#fff', width: 56, height: 56, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28, textDecoration: 'none', boxShadow: '0 4px 20px rgba(37,211,102,0.4)', zIndex: 100 }}>💬</a>
