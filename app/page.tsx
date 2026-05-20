@@ -776,7 +776,7 @@ export default function Home() {
               Desenvolvido por{' '}
               <a href="https://www.worvex.com.br/" target="_blank" rel="noopener noreferrer"
                 className="text-[#00C46A] hover:text-white transition-colors font-bold">
-                Willian Giroto · WORVEX
+                WORVEX
               </a>
               {' '}— Tecnologia que move negócios em Umuarama
             </p>
