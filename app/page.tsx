@@ -771,6 +771,16 @@ export default function Home() {
             <p className="text-gray-600 text-xs">2025 Giroto Story Maker - Studio Foto Danielle - Umuarama PR</p>
             <p className="text-gray-700 text-xs">Story Maker - Videomaker - Fotografo - Noroeste do Parana</p>
           </div>
+          <div className="border-t border-[rgba(212,168,67,0.05)] pt-6 mt-2 text-center">
+            <p className="text-gray-700 text-xs">
+              Desenvolvido por{' '}
+              <a href="https://www.worvex.com.br/" target="_blank" rel="noopener noreferrer"
+                className="text-[#00C46A] hover:text-white transition-colors font-bold">
+                Willian Giroto · WORVEX
+              </a>
+              {' '}— Tecnologia que move negócios em Umuarama
+            </p>
+          </div>
         </div>
       </footer>
 
