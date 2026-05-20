@@ -38,27 +38,39 @@ const faqs = [
 // ─── DEPOIMENTOS ──────────────────────────────────────────────────────────
 const depoimentos = [
   {
-    nome: 'Ana Paula R.',
-    evento: 'Casamento • Umuarama PR',
-    texto: 'Contratei o Giroto Story Maker para o meu casamento e foi incrível! Enquanto estávamos na festa, minha família toda já estava vendo os stories. Qualidade profissional e entrega em tempo real. Super recomendo!',
+    nome: 'Valmira Bruna',
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'Uma profissional incrível com um trabalho impecável, com fotos e vídeos lindos e cheios de sensibilidade, é uma pessoa maravilhosa!',
     estrelas: 5,
   },
   {
-    nome: 'Fernanda M.',
-    evento: 'Formatura • Cianorte PR',
-    texto: 'Os reels que ela criou na minha formatura ficaram perfeitos! Editado na hora, com música e tudo. Minhas amigas amaram. Já indiquei para mais três pessoas!',
+    nome: "L'umière Assessoria e Cerimonial",
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'Minhas experiências com a Vânia sempre foram extremamente positivas! É sempre um prazer indicar o trabalho dela para os nossos clientes.',
     estrelas: 5,
   },
   {
-    nome: 'Juliana & Carlos',
-    evento: 'Casamento • Umuarama PR',
-    texto: 'Que serviço diferenciado! A gente nem sabia que existia Story Maker. Ficamos impressionados com a agilidade e a qualidade. O conteúdo ficou profissional demais para as redes sociais.',
+    nome: 'Ivonice da Silva Souza',
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'Uma profissional incrível!! Trabalho impecável, feito com amor.',
     estrelas: 5,
   },
   {
-    nome: 'Bruna T.',
-    evento: 'Festa de 15 Anos • Umuarama PR',
-    texto: 'Minha filha ficou apaixonada! A festa virou viral no Instagram com os reels da Giroto Story Maker. Todo mundo queria saber quem era a profissional. Serviço impecável!',
+    nome: 'Studio Foto Danielle',
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'É uma alegria fazer parte de momentos especiais e entregar uma cobertura de vídeo feita com dedicação e amor.',
+    estrelas: 5,
+  },
+  {
+    nome: 'merynhaap',
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'Muito obrigado pela confiança em registrar esse momento tão especial ✨ Foi um prazer fazer parte do casamento.',
+    estrelas: 5,
+  },
+  {
+    nome: 'Willian Giroto',
+    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
+    texto: 'Fantástico ❤️',
     estrelas: 5,
   },
 ]
