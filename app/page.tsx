@@ -629,6 +629,11 @@ export default function Home() {
                   Seguir no Instagram
                 </div>
                 <div className="text-white/70 text-xs">Veja os bastidores dos eventos ao vivo!</div>
+                <a href="https://www.tiktok.com/@girotostorymaker" target="_blank" rel="noopener noreferrer"
+                  style={{background:'#000',color:'#fff',padding:'10px 24px',borderRadius:30,fontWeight:800,fontSize:14,display:'flex',alignItems:'center',gap:8,whiteSpace:'nowrap',marginTop:4}}>
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.56V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+                  Ver no TikTok
+                </a>
               </div>
             </div>
           </a>
