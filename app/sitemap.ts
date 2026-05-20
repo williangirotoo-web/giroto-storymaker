@@ -6,15 +6,15 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.eternamoments.com.br'
-  
-  const paginasServico = paginas.map(p => ({
+
+  const servicosSM = paginas.map(p => ({
     url: `${base}/servicos/${p.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
 
-  const paginasFotografo = paginasFoto.map(p => ({
+  const servicosFoto = paginasFoto.map(p => ({
     url: `${base}/fotografo/${p.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
@@ -28,15 +28,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  const video = paginasVideo.map(p => ({
+    url: `${base}/videomaker/${p.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
   return [
-    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    ...blog,
+    { url: base, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 1 },
+    { url: `${base}/servicos`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${base}/fotografo`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${base}/videomaker`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
-    ...paginasVideo.map(p => ({ url: `${base}/videomaker/${p.slug}`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 })),
-    { url: `${base}/fotografo`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    ...paginasFotografo,
-    { url: base, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
-    { url: `${base}/servicos`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    ...paginasServico,
+    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+    ...servicosSM,
+    ...servicosFoto,
+    ...blog,
+    ...video,
   ]
 }
