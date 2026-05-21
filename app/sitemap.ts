@@ -2,6 +2,7 @@ import { paginas } from '@/data/paginas'
 import { paginasFoto } from '@/data/paginas_foto'
 import { blogPosts } from '@/data/blog_posts'
 import { paginasVideo } from '@/data/paginas_video'
+import { paginasCidades } from '@/data/paginas_cidades'
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -45,5 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...servicosFoto,
     ...blog,
     ...video,
+    { url: `${base}/cidades`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+    ...paginasCidades.map(p => ({ url: `${base}/cidades/${p.slug}`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 })),
   ]
 }
