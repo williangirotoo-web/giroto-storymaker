@@ -218,13 +218,9 @@ export default function PaginaCidade({ params }: Props) {
         <section style={{ background: '#111', padding: '50px 24px', borderTop: '1px solid rgba(212,168,67,0.1)' }}>
           <div style={{ maxWidth: 800, margin: '0 auto' }}>
             <h2 style={{ fontSize: '1.6rem', fontWeight: 700, color: '#fff', marginBottom: 24, borderLeft: '4px solid #d4a843', paddingLeft: 16 }}>{artigos.a1_titulo}</h2>
-            {artigos.a1.split('
-
-').map((par,i) => <p key={i} style={{ color: '#bbb', lineHeight: 1.8, marginBottom: 20, fontSize: 15 }}>{par}</p>)}
+            {artigos.a1.split('\n\n').map((par,i) => <p key={i} style={{ color: '#bbb', lineHeight: 1.8, marginBottom: 20, fontSize: 15 }}>{par}</p>)}
             <h2 style={{ fontSize: '1.6rem', fontWeight: 700, color: '#fff', margin: '40px 0 24px', borderLeft: '4px solid #d4a843', paddingLeft: 16 }}>{artigos.a2_titulo}</h2>
-            {artigos.a2.split('
-
-').map((par,i) => <p key={i} style={{ color: '#bbb', lineHeight: 1.8, marginBottom: 20, fontSize: 15 }}>{par}</p>)}
+            {artigos.a2.split('\n\n').map((par,i) => <p key={i} style={{ color: '#bbb', lineHeight: 1.8, marginBottom: 20, fontSize: 15 }}>{par}</p>)}
           </div>
         </section>
 
