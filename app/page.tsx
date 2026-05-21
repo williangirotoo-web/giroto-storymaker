@@ -757,6 +757,14 @@ export default function Home() {
               </ul>
             </div>
             <div>
+              <h4 className="text-[#e0a050] font-bold text-sm mb-4">📍 Cidades Atendidas</h4>
+              <ul className="space-y-2 mb-4">
+                {[['Perobal PR','/cidades/story-maker-em-perobal-pr'],['Maria Helena PR','/cidades/story-maker-em-maria-helena-pr'],['Iporã PR','/cidades/story-maker-em-ipora-pr'],['Altônia PR','/cidades/story-maker-em-altonia-pr'],['Xambrê PR','/cidades/story-maker-em-xambre-pr'],['Ver todas →','/cidades']].map(([l,h]) => (
+                  <li key={l}><a href={h} className="text-gray-500 hover:text-[#e0a050] text-xs transition-colors">{l}</a></li>
+                ))}
+              </ul>
+            </div>
+            <div>
               <h4 className="text-[#50e0a0] font-bold text-sm mb-4">📝 Blog e Contato</h4>
               <ul className="space-y-2 mb-4">
                 {[['Story Maker Casamento','/blog/story-maker-para-casamento-em-umuarama-pr'],['Fotografo Casamento','/blog/fotografo-de-casamento-em-umuarama-pr'],['Videomaker','/blog/videomaker-para-casamento-em-umuarama-pr'],['Ver todos','/blog']].map(([l,h]) => (
