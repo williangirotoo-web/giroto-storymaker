@@ -102,7 +102,7 @@ export default function PaginaCidade({ params }: Props) {
   const cardsData = cards(pagina.cidade, pagina.tipo)
   const tags = hashtags(pagina.cidade)
 
-  const schema = {
+  const schema: any = {
     '@context': 'https://schema.org',
     '@graph': [
       {
