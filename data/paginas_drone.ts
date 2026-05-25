@@ -1,124 +1,126 @@
-export interface PaginaDrone{title:string;slug:string;kw:string;tipo:string}
-export const paginasDrone:PaginaDrone[]=[
+export interface PaginaDrone { title: string; slug: string; kw: string; tipo: string }
+
+export const paginasDrone: PaginaDrone[] = [
   {
     "title": "Drone para Casamento em Umuarama PR",
-    "kw": "drone casamento umuarama",
-    "slug": "drone-para-casamento-em-umuarama-pr",
-    "tipo": "casamento"
+    "kw": "drone casamento umuarama pr",
+    "tipo": "casamento",
+    "slug": "drone-para-casamento-em-umuarama-pr"
   },
   {
-    "title": "Filmagem Aerea Casamento Umuarama PR",
+    "title": "Filmagem Aerea de Casamento em Umuarama PR",
     "kw": "filmagem aerea casamento umuarama",
-    "slug": "filmagem-aerea-casamento-umuarama-pr",
-    "tipo": "casamento"
+    "tipo": "casamento",
+    "slug": "filmagem-aerea-de-casamento-em-umuarama-pr"
   },
   {
-    "title": "Foto Aerea Casamento Umuarama PR",
+    "title": "Foto Aerea de Casamento em Umuarama PR",
     "kw": "foto aerea casamento umuarama",
-    "slug": "foto-aerea-casamento-umuarama-pr",
-    "tipo": "casamento"
+    "tipo": "casamento",
+    "slug": "foto-aerea-de-casamento-em-umuarama-pr"
   },
   {
-    "title": "Drone Making Of Umuarama PR",
+    "title": "Drone para Making Of em Umuarama PR",
     "kw": "drone making of umuarama",
-    "slug": "drone-making-of-umuarama-pr",
-    "tipo": "making-of"
+    "tipo": "making-of",
+    "slug": "drone-para-making-of-em-umuarama-pr"
   },
   {
-    "title": "Filmagem Aerea Fazenda Umuarama PR",
+    "title": "Filmagem Aerea para Fazenda em Umuarama PR",
     "kw": "filmagem aerea fazenda umuarama",
-    "slug": "filmagem-aerea-fazenda-umuarama-pr",
-    "tipo": "rural"
+    "tipo": "rural",
+    "slug": "filmagem-aerea-para-fazenda-em-umuarama-pr"
   },
   {
-    "title": "Drone Rural Umuarama PR",
-    "kw": "drone rural umuarama",
-    "slug": "drone-rural-umuarama-pr",
-    "tipo": "rural"
+    "title": "Drone Rural em Umuarama PR",
+    "kw": "drone rural umuarama pr",
+    "tipo": "rural",
+    "slug": "drone-rural-em-umuarama-pr"
   },
   {
     "title": "Foto Aerea Rural Umuarama PR",
     "kw": "foto aerea rural umuarama",
-    "slug": "foto-aerea-rural-umuarama-pr",
-    "tipo": "rural"
+    "tipo": "rural",
+    "slug": "foto-aerea-rural-umuarama-pr"
   },
   {
-    "title": "Drone DJI Eventos Umuarama PR",
+    "title": "Drone DJI para Eventos em Umuarama PR",
     "kw": "drone dji eventos umuarama",
-    "slug": "drone-dji-eventos-umuarama-pr",
-    "tipo": "eventos"
+    "tipo": "eventos",
+    "slug": "drone-dji-para-eventos-em-umuarama-pr"
   },
   {
-    "title": "Filmagem Aerea Eventos Umuarama PR",
+    "title": "Filmagem Aerea para Eventos em Umuarama PR",
     "kw": "filmagem aerea eventos umuarama",
-    "slug": "filmagem-aerea-eventos-umuarama-pr",
-    "tipo": "eventos"
+    "tipo": "eventos",
+    "slug": "filmagem-aerea-para-eventos-em-umuarama-pr"
   },
   {
-    "title": "Drone Formatura Umuarama PR",
-    "kw": "drone formatura umuarama",
-    "slug": "drone-formatura-umuarama-pr",
-    "tipo": "formatura"
+    "title": "Drone para Formatura em Umuarama PR",
+    "kw": "drone formatura umuarama pr",
+    "tipo": "formatura",
+    "slug": "drone-para-formatura-em-umuarama-pr"
   },
   {
-    "title": "Video Aereo Casamento Umuarama PR",
+    "title": "Video Aereo para Casamento em Umuarama PR",
     "kw": "video aereo casamento umuarama",
-    "slug": "video-aereo-casamento-umuarama-pr",
-    "tipo": "casamento"
+    "tipo": "casamento",
+    "slug": "video-aereo-para-casamento-em-umuarama-pr"
   },
   {
     "title": "Drone DJI Mavic Umuarama PR",
     "kw": "drone dji mavic umuarama",
-    "slug": "drone-dji-mavic-umuarama-pr",
-    "tipo": "drone"
+    "tipo": "drone",
+    "slug": "drone-dji-mavic-umuarama-pr"
   },
   {
     "title": "Drone DJI Mini Umuarama PR",
     "kw": "drone dji mini umuarama",
-    "slug": "drone-dji-mini-umuarama-pr",
-    "tipo": "drone"
+    "tipo": "drone",
+    "slug": "drone-dji-mini-umuarama-pr"
   },
   {
     "title": "Drone DJI Air Umuarama PR",
     "kw": "drone dji air umuarama",
-    "slug": "drone-dji-air-umuarama-pr",
-    "tipo": "drone"
+    "tipo": "drone",
+    "slug": "drone-dji-air-umuarama-pr"
   },
   {
     "title": "Filmagem Aerea Profissional Umuarama PR",
     "kw": "filmagem aerea profissional umuarama",
-    "slug": "filmagem-aerea-profissional-umuarama-pr",
-    "tipo": "profissional"
+    "tipo": "profissional",
+    "slug": "filmagem-aerea-profissional-umuarama-pr"
   },
   {
-    "title": "Foto Video Aereo Umuarama PR",
-    "kw": "foto video aereo umuarama",
-    "slug": "foto-video-aereo-umuarama-pr",
-    "tipo": "profissional"
+    "title": "Foto e Video Aereo Umuarama PR",
+    "kw": "foto video aereo umuarama pr",
+    "tipo": "profissional",
+    "slug": "foto-e-video-aereo-umuarama-pr"
   },
   {
-    "title": "Drone Propriedade Rural Umuarama PR",
+    "title": "Drone para Propriedade Rural Umuarama PR",
     "kw": "drone propriedade rural umuarama",
-    "slug": "drone-propriedade-rural-umuarama-pr",
-    "tipo": "rural"
+    "tipo": "rural",
+    "slug": "drone-para-propriedade-rural-umuarama-pr"
   },
   {
     "title": "Cinematografia Aerea Umuarama PR",
-    "kw": "cinematografia aerea umuarama",
-    "slug": "cinematografia-aerea-umuarama-pr",
-    "tipo": "profissional"
+    "kw": "cinematografia aerea umuarama pr",
+    "tipo": "profissional",
+    "slug": "cinematografia-aerea-umuarama-pr"
   },
   {
-    "title": "Drone Festa 15 Anos Umuarama PR",
+    "title": "Drone para Festa de 15 Anos Umuarama PR",
     "kw": "drone festa 15 anos umuarama",
-    "slug": "drone-festa-15-anos-umuarama-pr",
-    "tipo": "eventos"
+    "tipo": "eventos",
+    "slug": "drone-para-festa-de-15-anos-umuarama-pr"
   },
   {
     "title": "Studio Foto Danielle Drone Umuarama PR",
     "kw": "studio foto danielle drone umuarama",
-    "slug": "studio-foto-danielle-drone-umuarama-pr",
-    "tipo": "profissional"
+    "tipo": "profissional",
+    "slug": "studio-foto-danielle-drone-umuarama-pr"
   }
 ]
-export function getPaginaDroneBySlug(slug:string):PaginaDrone|undefined{return paginasDrone.find(p=>p.slug===slug)}
+
+export function getPaginaDroneBySlug(slug: string): PaginaDrone | undefined { return paginasDrone.find(p => p.slug === slug) }

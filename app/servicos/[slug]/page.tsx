@@ -16,7 +16,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pagina = getPaginaBySlug(params.slug)
   if (!pagina) return {}
   const desc = `Contrate o melhor ${pagina.servico} para ${pagina.evento} em ${pagina.local}. A Giroto Story Maker cria conteúdo profissional em tempo real. Solicite orçamento!`
+  const paginasIndexadas = [
+    'story-maker-para-casamento-em-umuarama-pr',
+    'story-maker-para-formatura-em-umuarama-pr', 
+    'story-maker-para-festa-de-15-anos-em-umuarama-pr',
+    'story-maker-para-aniversario-em-umuarama-pr',
+    'story-maker-para-cha-de-bebe-em-umuarama-pr',
+    'story-maker-para-casamento-em-umuarama',
+    'story-maker-para-casamento-em-umuarama-parana',
+    'reels-ao-vivo-para-casamento-em-umuarama-pr',
+    'making-of-do-casamento-em-umuarama-pr',
+    'cobertura-digital-de-casamento-em-umuarama-pr',
+  ]
+  const deveIndexar = paginasIndexadas.includes(params.slug)
   return {
+    robots: deveIndexar ? { index: true, follow: true } : { index: false, follow: true },
     title: `${pagina.title} | Giroto Story Maker`,
     description: desc,
     alternates: { canonical: `${SITE}/servicos/${pagina.slug}` },
@@ -25,13 +39,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 function getArtigo(p: { evento: string; servico: string; local: string }) {
-  return [
-    `O ${p.servico} para ${p.evento} em ${p.local} é um serviço especializado que transforma cada momento do seu evento em conteúdo profissional para as redes sociais. A Giroto Story Maker é referência em ${p.local} quando o assunto é cobertura digital de eventos.`,
-    `Durante o seu ${p.evento}, nossa profissional estará presente do início ao fim, capturando cada detalhe com equipamentos profissionais — iPhone com suporte, iluminação de LED e microfone direcional — garantindo qualidade impecável mesmo em ambientes com pouca luz.`,
-    `O diferencial do ${p.servico} para ${p.evento} está na entrega em tempo real. Enquanto a celebração acontece, os convidados já podem curtir e compartilhar os stories e reels. Isso cria engajamento orgânico imenso e faz seu evento ser comentado por muito mais pessoas.`,
-    `A Giroto Story Maker trabalha com edição ágil e criativa, utilizando músicas tendência, transições modernas e textos personalizados. O resultado são stories e reels que viralizam no Instagram e TikTok, gerando memórias digitais inesquecíveis.`,
-    `Nosso serviço de ${p.servico} cobre toda a região de ${p.local} e municípios vizinhos, incluindo Alto Paraná, Cianorte, Paranavaí e todo o Noroeste do Paraná. Entre em contato e garanta a data do seu evento!`,
-  ].join('\n\n')
+  const loc = p.local
+  const ev = p.evento
+  const artigos: Record<string, string[]> = {
+    Casamento: [
+      'Imagine chegar na lua de mel e ver centenas de curtidas no video do seu casamento postado ainda durante a festa. Isso e o que a Vania Giroto faz em cada casamento que cobre em ' + loc + '.',
+      'Com mais de 300 eventos cobertos no Noroeste do Parana, desenvolvemos um metodo proprio: chegamos antes da cerimonia, acompanhamos o making-of, capturamos a entrada, os votos, o beijo — tudo editado e pronto antes do jantar.',
+      'Equipamento profissional: iPhone estabilizado, LED portatil, microfone direcional. Mas o que faz diferenca e o olhar humano — saber o momento exato de capturar a lagrima da mae da noiva, o sorriso surpreso do noivo.',
+      'Para casamentos em ' + loc + ' oferecemos pacotes completos com entrega em tempo real. Trabalhamos em parceria com o Studio Foto Danielle para foto + story maker + drone — a familia que vive de eternizar momentos.',
+    ],
+    Formatura: [
+      'A formatura e o resultado de anos de dedicacao. Merece ser celebrada e compartilhada em tempo real, enquanto a emocao ainda esta fresca, com todo mundo que torceu por voce.',
+      'A Vania cobre formaturas em ' + loc + ' com cuidado especial: cada turma tem sua propria identidade e o conteudo reflete isso. Nao e template — e a SUA conquista contada do seu jeito.',
+      'Capturamos o beijo da familia, o arremesso do chapeu, as lagrimas de alegria. No jantar e na balada, criamos reels com a energia do grupo que fazem todo mundo querer assistir de novo.',
+      'Atendemos todas as formatura em ' + loc + ' e regiao Noroeste do Parana. Entre em contato com antecedencia — as datas sao disputadas!',
+    ],
+  }
+  const paragrafos = artigos[ev] || [
+    'A Vania Giroto atende ' + ev + ' em ' + loc + ' com cuidado e atencao dedicados a cada evento que cobre.',
+    'Com equipamentos profissionais e anos de experiencia, garantimos que os melhores momentos do seu ' + ev + ' sejam preservados e compartilhados profissionalmente.',
+    'Entrega em tempo real — seu conteudo fica pronto enquanto a festa acontece. Entre em contato pelo WhatsApp.',
+  ]
+  return paragrafos.join('
+
+')
 }
 
 function getFaqs(p: { evento: string; servico: string; local: string }) {

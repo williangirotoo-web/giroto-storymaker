@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!p) return {}
   const desc = `Contrate o melhor ${p.servico} para ${p.evento} em ${p.local}. Studio Foto Danielle — Cícero Giroto, 40 anos de experiência em fotografia profissional em Umuarama PR. Solicite orçamento!`
   return {
+    robots: { index: false, follow: true },
     title: `${p.title} | Studio Foto Danielle`,
     description: desc,
     keywords: `${p.servico}, ${p.evento}, ${p.local}, fotógrafo umuarama, studio foto danielle, cicero giroto`,

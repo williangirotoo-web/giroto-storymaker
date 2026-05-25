@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${post.title} — Saiba tudo sobre Story Maker para casamentos e eventos em Umuarama PR. Vânia Giroto, especialista em cobertura digital para redes sociais.`
     : `${post.title} — Studio Foto Danielle, Cícero Manoel Domingos, fotógrafo profissional com 40 anos de experiência em Umuarama PR.`
   return {
+    robots: { index: false, follow: true },
     title: `${post.title} | ${isSM ? 'Giroto Story Maker' : 'Studio Foto Danielle'}`,
     description: desc,
     alternates: { canonical: `${SITE}/blog/${post.slug}` },

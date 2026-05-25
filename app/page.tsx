@@ -39,38 +39,26 @@ const faqs = [
 const depoimentos = [
   {
     nome: 'Valmira Bruna',
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'Uma profissional incrível com um trabalho impecável, com fotos e vídeos lindos e cheios de sensibilidade, é uma pessoa maravilhosa!',
+    evento: 'Casamento em Umuarama PR',
+    texto: 'Eu nao esperava que ia me emocionar tanto vendo os stories em tempo real no meu proprio casamento. A Vania captou cada detalhe com uma sensibilidade que so alguem que realmente ama o que faz consegue. Minha familia toda em Sao Paulo estava acompanhando ao vivo. Foi magico.',
     estrelas: 5,
   },
   {
-    nome: "L'umière Assessoria e Cerimonial",
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'Minhas experiências com a Vânia sempre foram extremamente positivas! É sempre um prazer indicar o trabalho dela para os nossos clientes.',
+    nome: "L'umiere Assessoria e Cerimonial",
+    evento: 'Parceira Oficial em Umuarama PR',
+    texto: 'Trabalhamos juntos em dezenas de eventos e a Vania e sempre a primeira que indicamos para nossos casais. Ela tem um olhar artistico raro — sabe exatamente o momento certo de filmar, o angulo perfeito, a luz ideal. Os noivos ficam apaixonados.',
     estrelas: 5,
   },
   {
     nome: 'Ivonice da Silva Souza',
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'Uma profissional incrível!! Trabalho impecável, feito com amor.',
+    evento: 'Casamento em Umuarama PR',
+    texto: 'Contratei achando que seria so mais um servico. Quando vi os primeiros stories chegando no meu celular ainda durante a cerimonia, chorei de emocao. E outra experiencia completamente diferente. Trabalho impecavel feito com muito amor.',
     estrelas: 5,
   },
   {
-    nome: 'Studio Foto Danielle',
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'É uma alegria fazer parte de momentos especiais e entregar uma cobertura de vídeo feita com dedicação e amor.',
-    estrelas: 5,
-  },
-  {
-    nome: 'merynhaap',
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'Muito obrigado pela confiança em registrar esse momento tão especial ✨ Foi um prazer fazer parte do casamento.',
-    estrelas: 5,
-  },
-  {
-    nome: 'Willian Giroto',
-    evento: 'Avaliação Google ⭐⭐⭐⭐⭐',
-    texto: 'Fantástico ❤️',
+    nome: 'Cicero Manoel Domingos',
+    evento: 'Studio Foto Danielle - Parceiro Oficial',
+    texto: 'Trabalhamos juntos ha anos. Enquanto eu cuido das fotos eternas, a Vania cria o conteudo que viraliza nas redes em tempo real. Juntos entregamos o pacote mais completo de Umuarama PR.',
     estrelas: 5,
   },
 ]
@@ -278,7 +266,7 @@ export default function Home() {
                 Story Maker que Transforma seu Evento em <span className="gold-text">Conteúdo Viral</span>
               </h2>
               <p className="text-gray-300 text-base leading-relaxed mb-6">
-                O <strong className="text-white">Giroto Story Maker</strong> é o serviço de cobertura digital mais completo de Umuarama PR. Especializada em criar conteúdo profissional para redes sociais em tempo real durante casamentos, formaturas e eventos, a profissional captura cada momento especial e o transforma em stories e reels prontos para compartilhar enquanto a festa ainda está acontecendo.
+                A <strong className="text-white">Giroto Story Maker</strong> é o serviço de cobertura digital mais completo de Umuarama PR. Especializada em criar conteúdo profissional para redes sociais em tempo real durante casamentos, formaturas e eventos, a profissional captura cada momento especial e o transforma em stories e reels prontos para compartilhar enquanto a festa ainda está acontecendo.
               </p>
               <p className="text-gray-300 text-base leading-relaxed mb-8">
                 A tendência do Story Maker chegou com força em todo o Brasil — e em Umuarama e região, o Giroto Story Maker é referência nesse serviço inovador. Com smartphone profissional, edição ágil e olhar artístico, cada evento se torna um conteúdo inesquecível nas redes sociais.
