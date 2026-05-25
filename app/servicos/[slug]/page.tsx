@@ -60,9 +60,7 @@ function getArtigo(p: { evento: string; servico: string; local: string }) {
     'Com equipamentos profissionais e anos de experiencia, garantimos que os melhores momentos do seu ' + ev + ' sejam preservados e compartilhados profissionalmente.',
     'Entrega em tempo real — seu conteudo fica pronto enquanto a festa acontece. Entre em contato pelo WhatsApp.',
   ]
-  return paragrafos.join('
-
-')
+  return paragrafos.join('\n\n')
 }
 
 function getFaqs(p: { evento: string; servico: string; local: string }) {
