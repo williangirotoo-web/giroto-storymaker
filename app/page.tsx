@@ -322,6 +322,25 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="animate-on-scroll mt-16 flex justify-center" style={{animationDelay:'0.3s'}}>
+            <div className="relative rounded-2xl overflow-hidden border border-[rgba(212,168,67,0.2)]" style={{aspectRatio:'9/16', maxWidth:280, width:'100%'}}>
+              <video
+                src="/videos/hero-video.mp4"
+                poster="/videos/hero-poster.jpg"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
+                aria-label="Vídeo de cobertura Story Maker em casamento real em Umuarama PR"
+              />
+              <div style={{position:'absolute',bottom:0,left:0,right:0,padding:'12px 14px',background:'linear-gradient(to top, rgba(0,0,0,0.85), transparent)'}}>
+                <span style={{color:'#d4a843',fontWeight:700,fontSize:12}}>🎬 Cobertura real • Casamento em Umuarama PR</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -384,23 +403,6 @@ export default function Home() {
                   <p className="text-gray-400 text-sm leading-relaxed">{e.desc}</p>
                 </div>
               </div>
-              <div className="animate-on-scroll relative rounded-2xl overflow-hidden border border-[rgba(212,168,67,0.2)] mt-6" style={{aspectRatio:'9/16', maxWidth:280}}>
-                <video
-                  src="/videos/hero-video.mp4"
-                  poster="/videos/hero-poster.jpg"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
-                  aria-label="Vídeo de cobertura Story Maker em casamento real em Umuarama PR"
-                />
-                <div style={{position:'absolute',bottom:0,left:0,right:0,padding:'12px 14px',background:'linear-gradient(to top, rgba(0,0,0,0.85), transparent)'}}>
-                  <span style={{color:'#d4a843',fontWeight:700,fontSize:12}}>🎬 Cobertura real • Casamento em Umuarama PR</span>
-                </div>
-              </div>
-
             ))}
           </div>
 
