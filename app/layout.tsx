@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    google: 'COLE_SEU_GOOGLE_VERIFICATION_CODE_AQUI',
+    google: '2pEP85ATbgBUwhJFlk1dwUtyBtwW1Y0r2szz37qejJA',
   },
   category: 'photography',
 }
